@@ -1,0 +1,25 @@
+html {
+  background-color: firebrick;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-family: "Bungee", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+li,
+p {
+  font-family: "Nanum Gothic Coding", sans-serif;
+}

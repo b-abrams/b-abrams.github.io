@@ -1,0 +1,12 @@
+{
+  "title": "KNIGHTFALL",
+  "img": "knightfall.png",
+  "languages": ["C#"],
+  "summary": "A 2D PLATFORMING GAME CREATED WITH UNTIY ENGINE",
+  "url": "https://github.com/b-abrams/Knightfall",
+  "more": [
+    "Worked in a team of two to design and create a 2D platforming game using Unity Engine",
+    "Collaborated with teammate using Git and GitHub to ensure consistency in the vision for game implementation",
+    "Contributed 24/40 commits to GitHub repository"
+  ]
+}
