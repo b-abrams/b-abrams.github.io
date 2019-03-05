@@ -1,0 +1,117 @@
+@media screen and (min-width: 320px) {
+  .navSide,
+  .full,
+  .carousel-indicators {
+    display: none;
+  }
+
+  .page {
+    height: 90vh;
+  }
+
+  /* Start Navbar */
+  .navTop {
+    background-color: firebrick;
+    position: sticky;
+    width: 100vw;
+    height: 10vh;
+    z-index: 1;
+    top: 0;
+  }
+
+  #navButton {
+    margin-top: 2.5vh;
+  }
+
+  #linkedin,
+  #github {
+    margin-top: 2vh;
+    max-width: 6vh;
+    max-height: 6vh;
+  }
+
+  /* End Navbar */
+
+  /* Start Home */
+
+  #headshot {
+    max-width: 30vh;
+  }
+  #headshotRow {
+    margin-top: 5vh;
+  }
+  #home h1 {
+    font-size: 3vh;
+  }
+  #home h2 {
+    font-size: 2vh;
+    font-family: "Bungee", sans-serif;
+  }
+
+  #contact p {
+    margin-top: 1.5vh;
+    margin-left: -1vh;
+  }
+  /* End Home */
+
+  /* Start About */
+  #aboutP1 p,
+  #aboutP3 p {
+    margin-top: 10vh;
+  }
+
+  #NSBE,
+  #ACMPT1,
+  #ACMPT2 {
+    width: 22vh;
+    height: 20vh;
+  }
+
+  #aboutP2 p {
+    margin-top: 5vh;
+  }
+  /* End About */
+
+  /* Start Skills */
+  #skills h2 {
+    font-size: 4vh;
+  }
+
+  #skills h3 {
+    font-size: 3vh;
+  }
+  .skillImg {
+    max-height: 7vh;
+    max-width: 7vh;
+  }
+
+  #os {
+    margin-top: 5vh;
+  }
+  /* End Skills */
+
+  /* Start Experience */
+
+  #bs,
+  #polbJobTitle {
+    font-size: 3vh;
+  }
+  #gradDate {
+    font-size: 2.5vh;
+  }
+  #csulb {
+    max-width: 20vh;
+  }
+
+  #polb {
+    max-width: 25vh;
+  }
+  .coursework {
+    margin-top: 0.5vh;
+  }
+  .polbExpR {
+    margin-top: 2vh;
+  }
+
+  /* End Experience */
+}

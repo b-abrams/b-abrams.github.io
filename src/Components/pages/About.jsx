@@ -10,15 +10,15 @@ import PT2 from "../../img/orgs/CSULB_PT.jpg";
 class About extends React.Component {
   render() {
     return (
-      <Grid id="about" className="page" fluid>
+      <Grid id="aboutF" className="page full" fluid>
         <Row>
-          <Col md={2}>
+          <Col md={2} lg={2}>
             <h1>ABOUT</h1>
           </Col>
         </Row>
 
         <Row id="aboutPicsR1" className="aboutPics">
-          <Col md={3} mdOffset={3}>
+          <Col md={3} mdOffset={3} lg={3} lgOffset={3}>
             <Image
               id="desert"
               src={desert}
@@ -30,7 +30,7 @@ class About extends React.Component {
             />
           </Col>
 
-          <Col md={3}>
+          <Col md={3} lg={3}>
             <Image
               id="park"
               src={park}
@@ -43,8 +43,8 @@ class About extends React.Component {
           </Col>
         </Row>
 
-        <Row id="aboutP1">
-          <Col md={10} mdOffset={1}>
+        <Row>
+          <Col id="aboutP1" md={12} lg={10} lgOffset={1}>
             <p>
               I'M BREELAND AND I'M CURRENTLY A 4TH YEAR STUDENT AT CALIFORNIA
               STATE UNIVERTIY, LONG BEACH WORKING TOWARDS A BS IN COMPUTER
@@ -56,7 +56,7 @@ class About extends React.Component {
         </Row>
 
         <Row id="aboutPicsR2" className="aboutPics">
-          <Col md={3} mdOffset={1}>
+          <Col md={3} mdOffset={1} lg={3} lgOffset={1}>
             <Image
               id="NSBE"
               src={NSBE}
@@ -78,7 +78,7 @@ class About extends React.Component {
               responsive
             />
           </Col>
-          <Col md={3}>
+          <Col sm={3} md={3}>
             <Image
               id="ACMPT2"
               src={PT2}
@@ -91,8 +91,8 @@ class About extends React.Component {
           </Col>
         </Row>
 
-        <Row id="aboutP2">
-          <Col md={10} mdOffset={1}>
+        <Row>
+          <Col id="aboutP2" md={10} mdOffset={1} lg={10} lgOffset={1}>
             <p>
               OUTSIDE OF SCHOOL, I ENJOY WORKING ON SIDE PROJECTS (LIKE THIS
               SITE) AS WELL AS ATTENDING EVENTS SUCH AS HACKATHONS AND
@@ -105,7 +105,7 @@ class About extends React.Component {
         </Row>
 
         <Row id="aboutPicsR3" className="aboutPics">
-          <Col md={3} mdOffset={3}>
+          <Col md={3} mdOffset={3} lg={3} lgOffset={3}>
             <Image
               id="burj"
               src={burj}
@@ -116,7 +116,7 @@ class About extends React.Component {
               responsive
             />
           </Col>
-          <Col md={3}>
+          <Col sm={3} md={3}>
             <Image
               id="mosque"
               src={mosque}
@@ -129,8 +129,8 @@ class About extends React.Component {
           </Col>
         </Row>
 
-        <Row id="aboutP3">
-          <Col md={10} mdOffset={1}>
+        <Row>
+          <Col id="aboutP3" md={10} mdOffset={1} lg={10} lgOffset={1}>
             <p>
               I TAKE PLEASURE IN READING SCIENCE FICTION AND FANTASTY NOVELS,
               ATTENDING WEEKLY CODE AND COFFEE MEETUPS, TRAVLEING WITH MY

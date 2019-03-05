@@ -35,7 +35,7 @@ class Projects extends React.Component {
     const website = require("../../projects/website");
     const websiteImg = require(`../../img/projects/${website.img}`);
     return (
-      <Grid id="projects" className="page" fluid>
+      <Grid id="projectsF" className="page full" fluid>
         <Row>
           <Col md={2}>
             <h1>PROJECTS</h1>
@@ -43,7 +43,7 @@ class Projects extends React.Component {
         </Row>
 
         <Row>
-          <Col md={3} mdOffset={1}>
+          <Col sm={3} smOffset={1} md={3} mdOffset={1}>
             <a id="knightfallAnchor" href={knightfall.url}>
               <OverlayTrigger
                 placement="bottom"
@@ -58,7 +58,7 @@ class Projects extends React.Component {
             </a>
           </Col>
 
-          <Col md={4}>
+          <Col sm={3} md={3}>
             <a id="websiteAnchor" href={website.url}>
               <OverlayTrigger
                 placement="bottom"

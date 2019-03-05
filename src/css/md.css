@@ -1,230 +1,231 @@
-.page {
-  background-color: white;
-  position: relative;
-  width: auto;
-  height: 100vh;
-  margin-left: 14vw;
-  text-align: center;
-  border: solid;
-  border-color: firebrick;
+@media screen and (min-width: 1025px) {
+  .navTop,
+  .carousel {
+    display: none;
+  }
+
+  .navSide,
+  .full {
+    display: inherit;
+  }
+
+  .page {
+    height: 100vh;
+    margin-left: 14vw;
+  }
+
+  /* START SIDEBAR LAYOUT*/
+  .navSide {
+    margin-left: 0;
+    background-color: firebrick;
+    height: 100vh;
+    width: 15vw;
+    position: sticky;
+    float: left;
+    top: 0;
+  }
+
+  #navSideUl {
+    color: white;
+    text-decoration: none;
+    position: sticky;
+    display: block;
+    list-style-type: none;
+    text-align: left;
+    margin-top: 15vh;
+  }
+
+  a.scroll {
+    color: white;
+    text-decoration: none;
+  }
+  .navSideLi {
+    font-family: "Nanum Gothic Coding", sans-serif;
+    font-size: 1.5vw;
+    padding: 2.5vh;
+    text-decoration: none;
+  }
+
+  #externals {
+    font-family: "Nanum Gothic Coding", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 1.75vw;
+    margin-top: 5vh;
+  }
+  #r1 {
+    margin-left: 0vw;
+  }
+
+  /* END SIDEBAR LAYOUT */
+
+  /* START HOME PAGE */
+
+  #home h1 {
+    font-size: 4vw !important;
+  }
+
+  #home h2 {
+    font-family: "Bungee", sans-serif;
+    font-size: 2vw !important;
+  }
+
+  #home p {
+    font-size: 1.35vw !important;
+  }
+
+  #headshotRow {
+    margin-top: 3vh;
+  }
+
+  #nameRow {
+    margin-top: -50vh;
+  }
+
+  #taglineRow {
+    margin-top: -40vh;
+  }
+
+  #bioRow {
+    margin-top: -30vh;
+  }
+
+  #bioRow p {
+    margin-left: 6vw;
+  }
+
+  #contact {
+    margin-top: -20vh;
+  }
+
+  #contact p {
+    margin-top: 2vh;
+  }
+
+  /* END HOME PAGE */
+
+  /* START ABOUT PAGE */
+
+  #aboutF h1 {
+    font-family: "Bungee", sans-serif;
+    font-size: 6vh;
+    margin-bottom: -5vh;
+  }
+
+  #aboutF p {
+    font-size: 2vh;
+  }
+
+  #aboutP1,
+  #aboutP3 {
+    margin-top: -10vh;
+  }
+
+  #aboutP2 {
+    margin-top: -5vh;
+  }
+  #aboutPicsR2 img {
+    height: 20vh;
+  }
+
+  /* END ABOUT PAGE */
+
+  /* START SKILLS PAGE */
+
+  #skills h1 {
+    float: left;
+    font-size: 3vw;
+    margin-bottom: 10vh;
+  }
+
+  #skills h2 {
+    float: left;
+    clear: left;
+    margin-left: 15vw;
+    margin-top: -2vh;
+  }
+
+  #skills h3 {
+    float: left;
+    clear: left;
+    margin-left: 15vw;
+  }
+
+  #css {
+    margin-top: -1vh;
+  }
+
+  #os {
+    padding-top: 5vh;
+  }
+
+  /* END SKILLS PAGE */
+
+  /* START EXPERIENCE PAGE */
+
+  #experienceF h3,
+  h4,
+  li {
+    text-align: left;
+  }
+
+  #expHeader {
+    margin-bottom: 5vh;
+  }
+  #csulb,
+  #polb {
+    max-width: 300%;
+  }
+
+  #bs,
+  #gradDate {
+    margin-left: 3vh;
+  }
+
+  .coursework {
+    margin-left: 18vh;
+  }
+
+  #polbJobTitle {
+    margin-left: 10vh;
+  }
+
+  #polbExp {
+    margin-top: 5vh;
+    margin-left: -10vh;
+  }
+
+  #workDates {
+    margin-left: 10vh;
+  }
+
+  .polbExpR {
+    margin-left: 5vh;
+  }
+
+  #polbExpR1 {
+    margin-bottom: 5vh;
+  }
+
+  /* END EXPERIENCE PAGE */
+
+  /* START PROJECTS PAGE */
+  #projectsF h1 {
+    margin-bottom: 5vh;
+  }
+
+  .projThumb {
+    border-style: groove;
+    border-color: firebrick;
+    border-width: thick;
+  }
+  .projThumb h2,
+  h3 {
+    font-family: "Bungee", sans-serif;
+  }
+
+  .projThumb h4 {
+    text-align: center;
+  }
+  /* END PROJECTS PAGE */
 }
-
-/* START SIDEBAR LAYOUT*/
-.nav {
-  margin-left: 0;
-  background-color: firebrick;
-  height: 100vh;
-  width: 15vw;
-  position: sticky;
-  float: left;
-  top: 0;
-}
-
-.navUl {
-  color: white;
-  text-decoration: none;
-  position: sticky;
-  display: block;
-  list-style-type: none;
-  text-align: left;
-  margin-top: 15vh;
-}
-
-a.scroll {
-  color: white;
-  text-decoration: none;
-}
-.navLi {
-  font-family: "Nanum Gothic Coding", sans-serif;
-  font-size: 1.5vw;
-  padding: 2.5vh;
-  text-decoration: none;
-}
-
-#externals {
-  font-family: "Nanum Gothic Coding", sans-serif;
-  font-size: 1.5vw;
-  color: white;
-  margin-left: 1.75vw;
-  margin-top: 5vh;
-}
-.linkGrid {
-  clear: left;
-  margin-left: -1.75vw;
-}
-
-/* END SIDEBAR LAYOUT */
-
-/* START HOME PAGE */
-
-#home h1 {
-  font-size: 4vw;
-}
-
-#home h2 {
-  font-family: "Bungee", sans-serif;
-  font-size: 2vw;
-}
-
-#home p {
-  font-size: 1.35vw;
-}
-
-#headshotRow {
-  margin-top: 3vh;
-}
-
-#headshotRow img {
-  margin-left: 4vw;
-}
-
-#nameRow {
-  margin-top: -50vh;
-}
-
-#nameRow h1 {
-  margin-left: 3.5vh;
-}
-
-#taglineRow {
-  margin-top: -40vh;
-}
-
-#taglineRow h2 {
-  margin-left: 3.5vh;
-}
-
-#bioRow {
-  margin-top: -30vh;
-}
-#bioRow p {
-  margin-left: 6vw;
-}
-
-#contact {
-  margin-top: -20vh;
-}
-
-#contact p {
-  font-size: 1.45vw;
-  margin-top: 0.5vh;
-  margin-left: 5vw;
-}
-
-/* END HOME PAGE */
-
-/* START ABOUT PAGE */
-
-#about h1 {
-  font-family: "Bungee", sans-serif;
-  font-size: 6vh;
-  margin-bottom: -3vh;
-}
-
-#p2 {
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
-}
-.aboutPics {
-  margin-bottom: 2vh;
-}
-
-#aboutPicsR1 {
-  margin-left: 3vw;
-}
-
-#aboutPicsR2 {
-  margin-left: 9vw;
-}
-
-#aboutPicsR2 img {
-  height: 20vh;
-}
-
-#aboutPicsR3 {
-  margin-left: 3vw;
-}
-
-/* END ABOUT PAGE */
-
-/* START SKILLS PAGE */
-
-#skills h1 {
-  float: left;
-  font-size: 3vw;
-  margin-bottom: 10vh;
-}
-
-#skills h2 {
-  float: left;
-  clear: left;
-  margin-left: 15vw;
-  margin-top: -2vh;
-}
-
-#skills h3 {
-  float: left;
-  clear: left;
-  margin-left: 15vw;
-}
-
-#css {
-  margin-top: -1vh;
-}
-
-#os {
-  padding-top: 5vh;
-}
-
-/* END SKILLS PAGE */
-
-/* START EXPERIENCE PAGE */
-
-#expHeader {
-  margin-bottom: 5vh;
-}
-#csulb {
-  max-width: 300%;
-}
-
-#gradDate {
-  margin-left: -33vw;
-}
-
-#experience li {
-  text-align: left;
-}
-
-#coursework h4 {
-  margin-left: 7vh;
-}
-
-#polbExp {
-  margin-top: 5vh;
-}
-
-#workDates {
-  margin-left: -56vh;
-}
-
-#polbExpR1 {
-  margin-bottom: 5vh;
-}
-
-/* END EXPERIENCE PAGE */
-
-/* START PROJECTS PAGE */
-#projects h1 {
-  margin-bottom: 5vh;
-}
-
-.projThumb {
-  border-style: groove;
-  border-color: firebrick;
-  border-width: thick;
-}
-.projThumb h2,
-h3 {
-  font-family: "Bungee", sans-serif;
-}
-/* END PROJECTS PAGE */

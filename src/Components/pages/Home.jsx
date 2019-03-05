@@ -2,13 +2,22 @@ import React from "react";
 import { Image, Grid, Row, Col } from "react-bootstrap";
 import headshot from "../../img/home/headshot.jpg";
 import email from "../../img/home/email.png";
+
+var viewHeight = window.innerHeight;
+var viewWidth = window.innerWidth;
+
+var h1Style = { fontSize: viewWidth * 0.075 };
+var h2Style = { fontSize: viewWidth * 0.04 };
+var pStyle = { fontSize: viewWidth * 0.035 };
+
 class Home extends React.Component {
   render() {
     return (
       <Grid id="home" className="page" fluid>
         <Row id="headshotRow">
-          <Col md={5} mdOffset={3}>
+          <Col xs="auto" sm="auto" md="auto" align="center">
             <Image
+              id="headshot"
               src={headshot}
               width="400"
               height="400"
@@ -20,20 +29,24 @@ class Home extends React.Component {
         </Row>
 
         <Row id="nameRow">
-          <Col md={7} mdOffset={2}>
-            <h1 id="name">BREELAND ABRAMS</h1>
+          <Col xs="auto" sm="auto" md="auto" align="center">
+            <h1 id="name" style={h1Style}>
+              BREELAND ABRAMS
+            </h1>
           </Col>
         </Row>
 
         <Row id="taglineRow">
-          <Col md={7} mdOffset={2}>
-            <h2 id="tagline">STUDENT. DEVELOPER. VISIONARY.</h2>
+          <Col xs="auto" sm="auto" md="auto" align="center">
+            <h2 id="tagline" style={h2Style}>
+              STUDENT. DEVELOPER. VISIONARY.
+            </h2>
           </Col>
         </Row>
 
         <Row id="bioRow">
-          <Col md={10}>
-            <p id="bio">
+          <Col xs="auto" sm={10} smOffset={1} md="auto" align="center">
+            <p style={pStyle}>
               HI THERE. WELCOME TO MY SITE. THIS IS WHERE I'LL POST A LITTLE
               INFO ABOUT MYSELF AS WELL AS LEAVE UPDATES ON MY PROJECTS.
             </p>
@@ -41,7 +54,7 @@ class Home extends React.Component {
         </Row>
 
         <Row id="contact">
-          <Col md={2} mdOffset={4}>
+          <Col xs={4} sm={6} smPull={2} md={2} mdOffset={5} align="right">
             <Image
               id="email"
               src={email}
@@ -51,8 +64,8 @@ class Home extends React.Component {
               responsive
             />
           </Col>
-          <Col md={3} mdPull={2}>
-            <p id="address">BREELAND.ABRAMS@GMAIL.COM</p>
+          <Col xs={4} sm={6} smPull={2} md={3} mdPull={2} align="left">
+            <p style={pStyle}>BREELAND.ABRAMS@GMAIL.COM</p>
           </Col>
         </Row>
       </Grid>
