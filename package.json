@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-dom": "^16.6.3",
@@ -26,5 +25,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://b-abrams.github.io"
+  "homepage": "https://b-abrams.github.io/website",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
