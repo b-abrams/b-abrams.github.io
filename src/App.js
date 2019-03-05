@@ -18,8 +18,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Topbar />
         <Sidebar />
+        <Topbar />
         <Home />
         <AboutCarousel />
         <About />
