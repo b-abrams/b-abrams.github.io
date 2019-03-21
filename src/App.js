@@ -3,16 +3,16 @@ import "./css/super.css";
 import "./css/xs.css";
 import "./css/sm.css";
 import "./css/md.css";
-import Sidebar from "./Components/Sidebar.jsx";
-import Home from "./Components/pages/Home.jsx";
-import About from "./Components/pages/About.jsx";
-import Skills from "./Components/pages/Skills.jsx";
-import Experience from "./Components/pages/Experinece.jsx";
-import Projects from "./Components/pages/Projects.jsx";
-import Topbar from "./Components/Topbar.jsx";
-import AboutCarousel from "./Components/carousel_pages/AboutCarousel.jsx";
-import ExperienceCarousel from "./Components/carousel_pages/ExperienceCarousel.jsx";
-import ProjectCarousel from "./Components/carousel_pages/ProjectCarousel.jsx";
+import Sidebar from "./Components/Sidebar.js";
+import Home from "./Components/pages/Home.js";
+import About from "./Components/pages/About.js";
+import Skills from "./Components/pages/Skills.js";
+import Experience from "./Components/pages/Experinece.js";
+import Projects from "./Components/pages/Projects.js";
+import Topbar from "./Components/Topbar.js";
+import AboutCarousel from "./Components/carousel_pages/AboutCarousel.js";
+import ExperienceCarousel from "./Components/carousel_pages/ExperienceCarousel.js";
+import ProjectCarousel from "./Components/carousel_pages/ProjectCarousel.js";
 
 class App extends Component {
   render() {
